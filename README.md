@@ -1,15 +1,15 @@
 # Algorithmic Efficiency Analysis: Merge Sort vs Quick Sort for E-Commerce Optimization
 
-## 📋 Project Overview
+##  Project Overview
 This project implements and empirically analyzes the performance of Merge Sort and Quick Sort algorithms for optimizing e-commerce product listings. The system sorts products based on sales volume and user ratings across varying dataset sizes (1,000 to 10,000 records), providing concrete data on algorithmic efficiency and scalability.
 
-## 🎯 Project Objectives
+##  Project Objectives
 - Implement and compare the time complexity of Merge Sort and Quick Sort algorithms
 - Develop an efficient multi-criteria sorting system for e-commerce product rankings
 - Analyze algorithmic performance scalability across different dataset sizes
 - Provide empirical validation of theoretical time complexity (O(n log n))
 
-## 🛠 Technical Implementation
+##  Technical Implementation
 
 ### Core Algorithms
 - **Merge Sort**: Divide-and-conquer algorithm with stable O(n log n) performance
@@ -22,10 +22,11 @@ This project implements and empirically analyzes the performance of Merge Sort a
 - **Visualization**: Matplotlib for performance graphing
 - **Data Handling**: CSV module for dataset processing
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 ```bash
+```
 
 ### Performance Comparison Table
 | Dataset Size | Merge Sort Time (s) | Quick Sort Time (s) |
@@ -38,7 +39,7 @@ This project implements and empirically analyzes the performance of Merge Sort a
 ![Performance Comparison Chart](results/performance_comparison.png)
 *Graph showing execution time scaling with dataset size*
 
-## 📊 Performance Analysis
+## Performance Analysis
 
 ### Dataset Sizes
 - **1,000 product records** - Baseline performance measurement
@@ -50,7 +51,7 @@ This project implements and empirically analyzes the performance of Merge Sort a
 - **Time complexity validation** - Empirical verification of O(n log n) complexity
 - **Multi-criteria sorting accuracy** - Correct ordering by (sales_volume, rating) tuples
 
-## 📈 Results & Findings
+##  Results & Findings
 
 The empirical analysis revealed:
 
@@ -59,7 +60,7 @@ The empirical analysis revealed:
 - **Practical Implications**: Quick Sort's better cache performance makes it more suitable for memory-constrained e-commerce applications
 - **Optimal Selection**: For real-time product ranking, Quick Sort provides better performance, while Merge Sort offers stability for consistent results
 
-## 🔬 Academic Significance
+##  Academic Significance
 
 This project demonstrates essential computer science competencies:
 
